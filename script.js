@@ -24,3 +24,11 @@ const employee = new Employee("John", 30, 40000, "Software Engineer");
 
 console.log(employee.role);
 employee.sayHello();
+
+
+const myDiv = document.getElementById('main');
+const myArray = [1, 2, 3, 4, 5];
+
+for(const prop in myArray) {
+  myDiv.innerHTML += `<p>${prop}</p>`;
+}
